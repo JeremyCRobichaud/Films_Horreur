@@ -1,0 +1,163 @@
+body {
+      background-color: rgb(59, 32, 124);
+      width: 80%;
+      margin: auto;
+     }
+
+/*Début du style Header*/
+header {
+        margin-bottom: 30px;
+       }
+header h1 {
+           font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+           font-size: 50px;
+           color: black;
+           text-decoration: underline black;
+           text-shadow: 1px 1px 2px gold, 0 0 1em silver, 0 0 0.2em silver;
+          }
+header nav {
+            background-color: white;
+            border-radius: 10px;
+            border: 3px double red;
+            height: 45px;
+           }
+header nav ul li {
+                  list-style-type: none;
+                  display: inline;
+                  line-height: 15px;
+                  margin-left:25px;
+                  font-weight: bold;
+                  font-size: larger;
+                  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                 }
+header nav ul li a{
+                   text-decoration: none;
+                   color: blue;
+                  }
+header nav ul li a:hover {
+                          color: yellow;
+                         }
+/*Fin du style Header*/
+
+/*Début du style des section*/
+section {
+         width: 50%;
+         float: left;
+        }
+section article {
+                background-color: white;
+                border: 3px solid gold;
+                border-radius: 10px;
+                margin-bottom: 10px;
+                margin-right:1em;
+                }            
+section article p {
+                   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                   font-size: large;
+                   text-align: center;
+                  }         
+section article ul li {
+                        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                        font-size: large;
+                      }
+section article ol li{
+                      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                      font-size: large;
+                     }             
+section article h2 {
+                    background-color: gold;
+                    border-top: 2px dotted black;
+                    border-bottom: 2px dotted black;
+                    text-align: center;
+                    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                    color: rgb(0, 0, 0);
+                    text-shadow: 1px 1px 2px rgb(194, 15, 15), 0 0 1em silver, 0 0 0.2em silver;
+                   }
+section article h3 {
+                    background-color: gold;
+                    border-top: 2px dotted black;
+                    border-bottom: 2px dotted black;
+                    text-align: center;
+                    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                    color: black;
+                    text-shadow: 1px 1px 2px rgb(194, 15, 15), 0 0 1em silver, 0 0 0.2em silver;
+                   }
+section article iframe {
+                        margin-left: 90px;
+                       }
+#audio1 {
+         margin-left: 210px;
+        }
+        
+.media {
+        margin-left: 530px;
+        margin-bottom: 20px;
+       }        
+/*Fin de l'optimisation du Main*/
+
+/*Footer optimisation graphique*/
+footer {
+        background-color: white ;
+        border: 3px double red;
+        width: 100%;
+        border-radius: 5px;
+        margin-bottom: 5px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: large;
+       }
+footer a {
+          margin-left: 220px;
+         }
+/*Fin optimisation du Footer*/
+
+/*Class et id optimisation*/
+.zerofloat {
+            clear: both;
+           }
+#cote {
+       position: relative;
+       top: 305px;
+      }
+#slash {
+        position: relative;
+        top: 625px;
+        }
+#zombie {
+         position: relative;
+         top: 358px;
+        } 
+#poss {
+        position: relative;
+        top: 358px;
+      }
+#para {
+       position: relative;
+       top: 358px;
+      }
+.bouton {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        background-color: rgb(255, 255, 255); 
+        color: #000000;
+        cursor: pointer;
+        padding: 18px;
+        width: 100%;
+        text-align: left;
+        border: none;
+        outline: none;
+        transition: 0.10s;
+        font-size: 1.2em
+       }
+.bouton:hover {
+        background-color: #ccc;
+       }
+.reponse  {
+        padding: 0 18px;
+        display: none;
+        overflow: hidden;
+       }   
+.reponse p {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+           }     
+#footo {
+        margin-left: 450px;
+       }
